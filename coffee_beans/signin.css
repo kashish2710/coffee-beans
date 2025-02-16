@@ -1,0 +1,70 @@
+body{
+    background-color: #c2a37a;
+    
+background-image: url("https://static.vecteezy.com/system/resources/previews/023/179/455/non_2x/business-presentation-background-with-brown-color-free-vector.jpg");
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#sign{
+  
+  font-size: 30px;
+  text-align: center;
+  font-family: cursive;
+  /* color: #755b39; */
+  color: #672c2c;
+height: 500px;
+width: 400px;
+background-color:rgb(255, 255, 255,0.1);
+backdrop-filter:blur(10px);
+border-radius: 20px;
+border-width: 2px;
+border: solid #6a2f2f;
+margin-top: 30px;
+box-shadow: 0 0 10px #6a2f2f;
+
+
+transition: all 1s ease-in-out;
+}
+#sign:hover{
+  transform: scale(1.1);
+}
+input{
+  margin-top: 20px;
+  height:30px;
+  width:300px;
+  font-size: 20px;
+  background-color: rgb(194, 163, 122);
+  border: solid #6a2f2f;
+  border-radius: 15px;
+}
+#heading{
+  color: #755b39;
+  height:50px;
+/* margin-top: 20px; */
+  /* background-color: #a88454; */
+  font-size: 40px;
+  text-align: center;
+  font-family: cursive;
+
+ 
+  /* margin-left: 100px; */
+}
+img{
+  border-radius: 10px;
+  height:50px;
+  width:60px;
+}
+#submit{
+  border-radius: 20px;
+  width:100px;
+  height: 50px;
+  background-color: #c2a37a;
+  font-size: 20px;
+}
+#submit:hover{
+  background-color: #672c2c;
+  color: azure;
+}
